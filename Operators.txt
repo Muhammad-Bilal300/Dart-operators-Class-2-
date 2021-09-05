@@ -1,0 +1,39 @@
+void main() {
+  var a = 10;
+  num b = 20.5;
+  print(a+b);
+  
+  var c = 30;
+  var d = 5;
+  print(c-d);
+  print(d-c);
+  
+  var e = 10;
+  var f = 3;
+  print(e*f);
+  
+  var h = 35;
+  var j = 10;
+  print(h/j);
+  
+  var h1 = 35;
+  var j1 = 10;
+  print(h1%j1);
+  
+  var i = 1;
+  b = i++;
+  print(b);
+
+  i = 1;
+  b = ++i;
+  print(b);
+        
+  i = 1;
+  b = i--;
+  print(b);
+  
+  i = 1;
+  b = --i;
+  print(b);
+  
+}
